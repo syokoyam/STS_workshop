@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A - Cap of Lead across the sky</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        <div><l xml:id="l1">*A - Cap of Lead across<lb/>
+   the sky</l><l xml:id="l2"><supplied>*A - Cap of Lead across</supplied></l>
+   <alt evaluate="all" target="#l1 #l2" mode="excl" weights="0.9 0.1" cert="high" resp="AB"/>
+<app><lem><l>Was tight and sur[e?]ly drawn</l></lem>
+<rdg><l>Was tight and sur[e?]ly drawn We could not find</l></rdg></app>
+<l>We could not find the mighty<lb/>
+   Face</l>
+<l>The Figure was withdrawn -<lb/>
+---</l>
+<l>A chill came up as from<lb/>
+   a shaft</l>
+<l>Our noon became a well</l>
+<l>A Thunder storm combines the<lb/>
+   charms</l>
+<l>Of Winter and of Hell</l>
+<p>E</p></div>
+      </body>
+  </text>
+</TEI>

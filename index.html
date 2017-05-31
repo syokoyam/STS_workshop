@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>My static site</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A static site for my TEI">
+    <meta name="author" content="Me">
+    <link rel="stylesheet" href="css/CETEIcean.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+  </head>
+
+  <body>
+    <script src="js/CETEI.js"></script>
+    <div id="TEI"></div>
+    <script>var CETEIcean = new CETEI()
+     CETEIcean.getHTML5("data/HST21d.xml", function(data) {
+         document.getElementById("TEI").appendChild(data)
+     })
+</script>
+  </body>
+
+</html>
